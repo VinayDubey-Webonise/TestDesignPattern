@@ -4,4 +4,5 @@ public abstract class Android extends CellPhone {
     public abstract void upgradeAndroidVersion();
     public abstract void installPlaystoreApp();
     public abstract void showAndroidSpecs();
+    public abstract void install();
 }

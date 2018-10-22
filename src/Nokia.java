@@ -22,6 +22,11 @@ public class Nokia extends Android {
     }
 
     @Override
+    public void install() {
+        PrintMessage.print("Nokia Install");
+    }
+
+    @Override
     public void makeCall() {
         PrintMessage.print("Nokia calling...");
     }

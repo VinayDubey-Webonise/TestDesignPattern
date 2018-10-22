@@ -22,6 +22,11 @@ public class Samsung extends Android{
     }
 
     @Override
+    public void install() {
+        PrintMessage.print("Samsung Print");
+    }
+
+    @Override
     public void makeCall() {
         PrintMessage.print("Samsung calling...");
     }

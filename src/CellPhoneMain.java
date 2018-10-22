@@ -34,6 +34,8 @@ public class CellPhoneMain {
         switch (choice){
             case 1:
                 android=androidFactory.getAndroidPhone("Nokia");
+                android=new AppDecorator(new Tez(new Paytm(android)));
+                android.install();
                 break;
             case 2:
                 android=androidFactory.getAndroidPhone("Samsung");
